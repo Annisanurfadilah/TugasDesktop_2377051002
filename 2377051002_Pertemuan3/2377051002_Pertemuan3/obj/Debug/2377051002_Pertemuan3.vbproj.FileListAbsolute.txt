@@ -1,0 +1,10 @@
+c:\users\acer\onedrive\dokumen\visual studio 2013\Projects\2377051002_Pertemuan3\2377051002_Pertemuan3\bin\Debug\2377051002_Pertemuan3.exe.config
+c:\users\acer\onedrive\dokumen\visual studio 2013\Projects\2377051002_Pertemuan3\2377051002_Pertemuan3\obj\Debug\_2377051002_Pertemuan3.Form1.resources
+c:\users\acer\onedrive\dokumen\visual studio 2013\Projects\2377051002_Pertemuan3\2377051002_Pertemuan3\obj\Debug\_2377051002_Pertemuan3.Resources.resources
+c:\users\acer\onedrive\dokumen\visual studio 2013\Projects\2377051002_Pertemuan3\2377051002_Pertemuan3\obj\Debug\2377051002_Pertemuan3.vbproj.GenerateResource.Cache
+c:\users\acer\onedrive\dokumen\visual studio 2013\Projects\2377051002_Pertemuan3\2377051002_Pertemuan3\bin\Debug\2377051002_Pertemuan3.exe
+c:\users\acer\onedrive\dokumen\visual studio 2013\Projects\2377051002_Pertemuan3\2377051002_Pertemuan3\bin\Debug\2377051002_Pertemuan3.pdb
+c:\users\acer\onedrive\dokumen\visual studio 2013\Projects\2377051002_Pertemuan3\2377051002_Pertemuan3\bin\Debug\2377051002_Pertemuan3.xml
+c:\users\acer\onedrive\dokumen\visual studio 2013\Projects\2377051002_Pertemuan3\2377051002_Pertemuan3\obj\Debug\2377051002_Pertemuan3.exe
+c:\users\acer\onedrive\dokumen\visual studio 2013\Projects\2377051002_Pertemuan3\2377051002_Pertemuan3\obj\Debug\2377051002_Pertemuan3.xml
+c:\users\acer\onedrive\dokumen\visual studio 2013\Projects\2377051002_Pertemuan3\2377051002_Pertemuan3\obj\Debug\2377051002_Pertemuan3.pdb
