@@ -1,15 +1,15 @@
-﻿Public Class Form3
+﻿Public Class Form2
 
-    Private Sub btnprocess_Click(sender As Object, e As EventArgs) Handles btnprocess.Click
+    Private Sub btnProses_Click(sender As Object, e As EventArgs) Handles btnProses.Click
         Dim nip As Long
-        If Not Long.TryParse(txtnip.Text.Trim(), nip) Then
+        If Not Long.TryParse(txtNIP.Text.Trim(), nip) Then
             MessageBox.Show("NIP harus berupa angka!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
             Exit Sub
         End If
 
-        Dim nama As String = txtnama.Text.Trim()
-        Dim fakultas As String = cbfakultas.Text.Trim()
-        Dim jurusan As String = cbjurusan.Text.Trim()
+        Dim nama As String = txtNama.Text.Trim()
+        Dim fakultas As String = cbFakultas.Text.Trim()
+        Dim jurusan As String = cbJurusan.Text.Trim()
 
         Dim jenisKelamin As String = ""
         If rbL.Checked Then
@@ -31,7 +31,7 @@
                         MessageBoxIcon.Information)
     End Sub
 
-    Private Sub txtnip_TextChanged(sender As Object, e As EventArgs) Handles txtnip.TextChanged
+    Private Sub txtNIP_TextChanged(sender As Object, e As EventArgs) Handles txtNIP.TextChanged
 
     End Sub
 

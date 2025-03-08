@@ -9,3 +9,4 @@ C:\Users\Acer\onedrive\dokumen\visual studio 2013\Projects\Tugas1Desktop_2377051
 C:\Users\Acer\onedrive\dokumen\visual studio 2013\Projects\Tugas1Desktop_2377051002\Tugas1Desktop_2377051002\obj\Debug\Tugas1Desktop_2377051002.exe
 C:\Users\Acer\onedrive\dokumen\visual studio 2013\Projects\Tugas1Desktop_2377051002\Tugas1Desktop_2377051002\obj\Debug\Tugas1Desktop_2377051002.xml
 C:\Users\Acer\onedrive\dokumen\visual studio 2013\Projects\Tugas1Desktop_2377051002\Tugas1Desktop_2377051002\obj\Debug\Tugas1Desktop_2377051002.pdb
+C:\Users\Acer\onedrive\dokumen\visual studio 2013\Projects\Tugas1Desktop_2377051002\Tugas1Desktop_2377051002\obj\Debug\Tugas1Desktop_2377051002.Form2.resources

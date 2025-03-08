@@ -22,26 +22,27 @@ Partial Class Form3
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.lblNpm = New System.Windows.Forms.Label()
+        Me.lblNpmm = New System.Windows.Forms.Label()
         Me.lblNama = New System.Windows.Forms.Label()
         Me.lblFakultas = New System.Windows.Forms.Label()
         Me.lblJurusan = New System.Windows.Forms.Label()
         Me.btnKembali = New System.Windows.Forms.Button()
+        Me.lblJk = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
-        'lblNpm
+        'lblNpmm
         '
-        Me.lblNpm.AutoSize = True
-        Me.lblNpm.Location = New System.Drawing.Point(12, 20)
-        Me.lblNpm.Name = "lblNpm"
-        Me.lblNpm.Size = New System.Drawing.Size(31, 13)
-        Me.lblNpm.TabIndex = 0
-        Me.lblNpm.Text = "NPM"
+        Me.lblNpmm.AutoSize = True
+        Me.lblNpmm.Location = New System.Drawing.Point(15, 22)
+        Me.lblNpmm.Name = "lblNpmm"
+        Me.lblNpmm.Size = New System.Drawing.Size(31, 13)
+        Me.lblNpmm.TabIndex = 0
+        Me.lblNpmm.Text = "NPM"
         '
         'lblNama
         '
         Me.lblNama.AutoSize = True
-        Me.lblNama.Location = New System.Drawing.Point(12, 56)
+        Me.lblNama.Location = New System.Drawing.Point(15, 54)
         Me.lblNama.Name = "lblNama"
         Me.lblNama.Size = New System.Drawing.Size(35, 13)
         Me.lblNama.TabIndex = 1
@@ -50,7 +51,7 @@ Partial Class Form3
         'lblFakultas
         '
         Me.lblFakultas.AutoSize = True
-        Me.lblFakultas.Location = New System.Drawing.Point(12, 93)
+        Me.lblFakultas.Location = New System.Drawing.Point(15, 120)
         Me.lblFakultas.Name = "lblFakultas"
         Me.lblFakultas.Size = New System.Drawing.Size(47, 13)
         Me.lblFakultas.TabIndex = 2
@@ -59,7 +60,7 @@ Partial Class Form3
         'lblJurusan
         '
         Me.lblJurusan.AutoSize = True
-        Me.lblJurusan.Location = New System.Drawing.Point(12, 128)
+        Me.lblJurusan.Location = New System.Drawing.Point(15, 154)
         Me.lblJurusan.Name = "lblJurusan"
         Me.lblJurusan.Size = New System.Drawing.Size(44, 13)
         Me.lblJurusan.TabIndex = 3
@@ -74,25 +75,36 @@ Partial Class Form3
         Me.btnKembali.Text = "Submit"
         Me.btnKembali.UseVisualStyleBackColor = True
         '
+        'lblJk
+        '
+        Me.lblJk.AutoSize = True
+        Me.lblJk.Location = New System.Drawing.Point(15, 87)
+        Me.lblJk.Name = "lblJk"
+        Me.lblJk.Size = New System.Drawing.Size(71, 13)
+        Me.lblJk.TabIndex = 5
+        Me.lblJk.Text = "Jenis Kelamin"
+        '
         'Form3
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(284, 261)
+        Me.Controls.Add(Me.lblJk)
         Me.Controls.Add(Me.btnKembali)
         Me.Controls.Add(Me.lblJurusan)
         Me.Controls.Add(Me.lblFakultas)
         Me.Controls.Add(Me.lblNama)
-        Me.Controls.Add(Me.lblNpm)
+        Me.Controls.Add(Me.lblNpmm)
         Me.Name = "Form3"
         Me.Text = "Form3"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents lblNpm As System.Windows.Forms.Label
+    Friend WithEvents lblNpmm As System.Windows.Forms.Label
     Friend WithEvents lblNama As System.Windows.Forms.Label
     Friend WithEvents lblFakultas As System.Windows.Forms.Label
     Friend WithEvents lblJurusan As System.Windows.Forms.Label
     Friend WithEvents btnKembali As System.Windows.Forms.Button
+    Friend WithEvents lblJk As System.Windows.Forms.Label
 End Class

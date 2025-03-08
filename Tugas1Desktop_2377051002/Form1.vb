@@ -1,34 +1,29 @@
 ﻿Public Class Form1
-    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        ' Menghapus item sebelumnya agar tidak duplikasi
-        cmbFakultas.Items.Clear()
-        cmbJurusan.Items.Clear()
 
-        ' Menambahkan pilihan fakultas ke ComboBox
-        cmbFakultas.Items.Add("FMIPA")
-        cmbFakultas.Items.Add("FKIP")
-        cmbFakultas.Items.Add("FEB")
-        cmbFakultas.Items.Add("FH")
+    Private Sub btnprocess_Click(sender As Object, e As EventArgs) Handles btnprocess.Click
+        Dim nip As Long
+        If Not Long.TryParse(txtnip.Text, nip) Then
+            MessageBox.Show("NIP harus berupa angka!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            Exit Sub
+        End If
+        Dim nama As String = txtnama.Text
+        Dim fakultas As String = cbfakultas.Text
+        Dim jurusan As String = cbjurusan.Text
 
-        ' Menambahkan pilihan jurusan ke ComboBox
-        cmbJurusan.Items.Add("Matematika")
-        cmbJurusan.Items.Add("Kimia")
-        cmbJurusan.Items.Add("Biologi")
-        cmbJurusan.Items.Add("Fisika")
-        cmbJurusan.Items.Add("Ilmu Komputer")
+        MessageBox.Show("Hai : " & nama & vbCrLf &
+                        "NIP : " & nip & vbCrLf &
+                        "Fakultas : " & fakultas & vbCrLf &
+                        "Jurusan : " & jurusan,
+                        "Informasi",
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Information)
+    End Sub
+
+    Private Sub txtnip_TextChanged(sender As Object, e As EventArgs) Handles txtnip.TextChanged
 
     End Sub
 
-    Private Sub btnSubmit_Click(sender As Object, e As EventArgs) Handles btnSubmit.Click
-        ' Pastikan semua input diisi
-        If txtNPM.Text = "" Or txtNama.Text = "" Or cmbFakultas.Text = "" Or cmbJurusan.Text = "" Then
-            MessageBox.Show("Harap isi semua data!", "Peringatan", MessageBoxButtons.OK, MessageBoxIcon.Warning)
-            Exit Sub
-        End If
+    Private Sub RadioButton1_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton1.CheckedChanged
 
-        ' Mengirim data ke Form3 dengan parameter yang benar
-        Dim hasilForm As New Form3(txtNpm.Text, txtNama.Text, cmbFakultas.Text, cmbJurusan.Text)
-        hasilForm.Show()
-        Me.Hide()
     End Sub
 End Class
